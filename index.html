@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space game</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+  </head>
+  <body>
+    <div class="main-page">
+      <div class="timer">
+        <p>0</p>
+        <p>сек.</p>
+      </div>
+      <div class="menu-main">
+        <p class="menu-text">Виберіть рівень складності</p>
+        <button id="easy" class="menu-button"><p>Легко</p></button>
+        <button id="medium" class="menu-button"><p>Середньо</p></button>
+        <button id="hard" class="menu-button"><p>Складно</p></button>
+      </div>
+      <div class="element-ship">
+        <img src="/img/ship.png" alt="cosmo-car" />
+      </div>
+    </div>
+    <script type="module" src="/js/index.js"></script>
+    <script type="module" src="/js/ship.js"></script>
+    <script type="module" src="/js/meteor.js"></script>
+    <script type="module" src="/js/menu.js"></script>
+    <script type="module" src="/js/playStart.js"></script>
+    <script type="module" src="/js/timer.js"></script>
+  </body>
+</html>
